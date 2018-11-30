@@ -1,0 +1,82 @@
+body{
+    background-color: white;
+    text-align: center;
+    font-family: "Times New Roman", sans-serif;
+}
+.navbar{
+    background-color: #ffffff;
+}
+.carousel{
+    padding: 0px 0 200px 0 !important;
+    margin: 0 !important;
+    max-width: 100%;
+    height: 600px;
+}
+.edit1{
+    padding: 20px 0 0 0;
+}
+.padd{
+    padding: 0 20px 0 0;
+}
+#slide1{
+    height: 550px;
+    max-width: 100%;
+}
+#slide2{
+    height: 550px;
+    max-width: 100%;
+}
+#slide3{
+    height: 550px;
+    max-width: 100%;
+}
+#indicts{
+    position: relative;
+    top: 550px;
+}
+.ccc{
+    background-color: black; !important;
+}
+.hp4{
+    padding: 15px 0 0 0;
+}
+#logo{
+    width: 40px;
+    height: 40px;
+}
+.p1{
+    text-align: justify;
+    font-size: 18px;
+}
+.hp1{
+    font-size: 2.5em;
+}
+.center-justified {
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+.p2{
+    text-align: justify;
+    font-size: 20px;
+    margin: 0;
+    padding: 0 0 0 250px;
+}
+
+.jumbotron1{
+    max-width: 100%;
+    height: auto;
+    background-size: cover; !important;
+    background-color: white;
+    padding:130px 0 250px 0 !important;
+    margin: 0 !important;
+}
+.jumbotron2{
+    max-width: 100%;
+    height: auto;
+    background-size: cover; !important;
+    background-color: white;
+    padding:110px 0 100px 0 !important;
+    margin: 0 !important;
+}
+
