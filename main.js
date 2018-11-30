@@ -13,9 +13,9 @@ $(document).ready(function() {
             $(".kl").css("weight", 100);
             $(".kl").css("height", "auto");
             $(".carousel").css("padding-bottom", 0);
-            $(".jumbotron1").css({
-                "padding": "0 0 0 0 !important;"
-            });
+            $(".p4").css({
+                "padding": "0 0 0 100px" //tempvalue
+            })
         }
         else{
             $(".p4").css("font-size", 20);
@@ -26,6 +26,9 @@ $(document).ready(function() {
             $(".teml").css("weight", 300);
             $(".kl").css("weight", 200);
             $(".kl").css("height", 200);
+            $(".p4").css({
+                "padding": "15px 0 0 400px" 
+            })
 
 
         }
