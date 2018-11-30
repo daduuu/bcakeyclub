@@ -6,6 +6,9 @@ body{
 .navbar{
     background-color: #ffffff;
 }
+#nav2{
+    padding: 0 0 0 0;
+}
 .nav-link{
     color: #000;
 }
@@ -30,15 +33,15 @@ body{
     padding: 0 0 0 50px;
 }
 #slide1{
-    height: auto;
+    height: 530px;
     max-width: 100%;
 }
 #slide2{
-    height: auto;
+    height: 530px;
     max-width: 100%;
 }
 #slide3{
-    height: auto;
+    height: 530px;
     max-width: 100%;
 }
 #indicts{
@@ -110,4 +113,5 @@ body{
     padding:110px 0 180px 0 !important;
     margin: 0 !important;
 }
+
 

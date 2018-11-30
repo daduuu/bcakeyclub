@@ -10,6 +10,11 @@ $(document).ready(function() {
     }
 
     function setHeight(){
+        if($(window).width() <= 3000){
+            $("#slide1").css("height", "auto");
+            $("#slide2").css("height", "auto");
+            $("#slide3").css("height", "auto");
+        }
         if ($(window).width() <= 1200) {
             var x = 12;
             var y = 250;
@@ -31,6 +36,7 @@ $(document).ready(function() {
             $(".kl").css("weight", 100);
             $(".kl").css("height", "auto");
 
+
             $(".p4").css({
                 "padding": "0 0 0 100px" //tempvalue
             });
@@ -39,7 +45,7 @@ $(document).ready(function() {
             });
 
             $(".carousel").css({
-                "height": y,
+                "height": "auto",
                 "padding": "0 0 0 0"
             });
             $(".jumbotron1").css({
@@ -67,6 +73,9 @@ $(document).ready(function() {
 
         }
         else{
+            $("#slide1").css("height", 530);
+            $("#slide2").css("height", 530);
+            $("#slide3").css("height", 530);
             $(".p4").css("font-size", 20);
             $(".p1").css("font-size", 18);
             $(".h0").css("font-size", "2.5em");
